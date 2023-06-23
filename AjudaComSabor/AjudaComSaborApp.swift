@@ -11,7 +11,9 @@ import SwiftUI
 struct AjudaComSaborApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                Tela1View()
+            }
         }
     }
 }

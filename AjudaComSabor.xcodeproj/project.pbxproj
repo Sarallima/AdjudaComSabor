@@ -11,6 +11,10 @@
 		CE1436012A3CF65C00964947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1436002A3CF65C00964947 /* ContentView.swift */; };
 		CE1436032A3CF65D00964947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1436022A3CF65D00964947 /* Assets.xcassets */; };
 		CE1436062A3CF65D00964947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1436052A3CF65D00964947 /* Preview Assets.xcassets */; };
+		CE14360D2A3CF68C00964947 /* Tela1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14360C2A3CF68C00964947 /* Tela1View.swift */; };
+		CE14360F2A3CF6DB00964947 /* Tela2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14360E2A3CF6DB00964947 /* Tela2View.swift */; };
+		CE1436112A3CF71E00964947 /* Tela3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1436102A3CF71E00964947 /* Tela3View.swift */; };
+		CE1436132A3CF76C00964947 /* Tela4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1436122A3CF76C00964947 /* Tela4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CE1436002A3CF65C00964947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE1436022A3CF65D00964947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1436052A3CF65D00964947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE14360C2A3CF68C00964947 /* Tela1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela1View.swift; sourceTree = "<group>"; };
+		CE14360E2A3CF6DB00964947 /* Tela2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela2View.swift; sourceTree = "<group>"; };
+		CE1436102A3CF71E00964947 /* Tela3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela3View.swift; sourceTree = "<group>"; };
+		CE1436122A3CF76C00964947 /* Tela4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				CE1435FE2A3CF65C00964947 /* AjudaComSaborApp.swift */,
 				CE1436002A3CF65C00964947 /* ContentView.swift */,
+				CE14360C2A3CF68C00964947 /* Tela1View.swift */,
+				CE14360E2A3CF6DB00964947 /* Tela2View.swift */,
+				CE1436102A3CF71E00964947 /* Tela3View.swift */,
+				CE1436122A3CF76C00964947 /* Tela4View.swift */,
 				CE1436022A3CF65D00964947 /* Assets.xcassets */,
 				CE1436042A3CF65D00964947 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1436012A3CF65C00964947 /* ContentView.swift in Sources */,
+				CE1436132A3CF76C00964947 /* Tela4View.swift in Sources */,
+				CE1436112A3CF71E00964947 /* Tela3View.swift in Sources */,
+				CE14360F2A3CF6DB00964947 /* Tela2View.swift in Sources */,
 				CE1435FF2A3CF65C00964947 /* AjudaComSaborApp.swift in Sources */,
+				CE14360D2A3CF68C00964947 /* Tela1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AjudaComSabor/Preview Content\"";
+				DEVELOPMENT_TEAM = LRZKPR9W76;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AjudaComSabor/Preview Content\"";
+				DEVELOPMENT_TEAM = LRZKPR9W76;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
